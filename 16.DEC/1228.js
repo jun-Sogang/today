@@ -7,7 +7,7 @@
 
 //Prototype
 var obj2 = {
-	x : 2
+	x: 2
 };
 
 var obj1 = Object.create(obj2);
