@@ -1,2 +1,10 @@
-# today
-What did you learn?
+# Today
+what did you Learn?
+
+# Create a new repository on the command line
+echo "# N_Queens-by-bitwise" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:jun-Sogang/N_Queens-by-bitwise.git
+git push -u origin master

@@ -1,0 +1,530 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/JJun/.nvm/versions/node/v6.5.0/bin/node',
+1 verbose cli   '/Users/JJun/.nvm/versions/node/v6.5.0/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save-dev',
+1 verbose cli   'eslint-config-airbnb',
+1 verbose cli   'eslint@^#.#.#',
+1 verbose cli   'eslint-plugin-jsx-a11y@^#.#.#',
+1 verbose cli   'eslint-plugin-import@^#.#.#',
+1 verbose cli   'eslint-plugin-react@^#.#.#' ]
+2 info using npm@3.10.3
+3 info using node@v6.5.0
+4 verbose config Skipping project config: /Users/JJun/.npmrc. (matches userconfig)
+5 silly loadCurrentTree Starting
+6 silly install loadCurrentTree
+7 silly install readLocalPackageData
+8 silly fetchPackageMetaData eslint-config-airbnb
+9 silly fetchPackageMetaData eslint@^#.#.#
+10 silly fetchPackageMetaData eslint-plugin-jsx-a11y@^#.#.#
+11 silly fetchPackageMetaData eslint-plugin-import@^#.#.#
+12 silly fetchPackageMetaData eslint-plugin-react@^#.#.#
+13 silly fetchNamedPackageData eslint-config-airbnb
+14 silly mapToRegistry name eslint-config-airbnb
+15 silly mapToRegistry using default registry
+16 silly mapToRegistry registry https://registry.npmjs.org/
+17 silly mapToRegistry data Result {
+17 silly mapToRegistry   raw: 'eslint-config-airbnb',
+17 silly mapToRegistry   scope: null,
+17 silly mapToRegistry   escapedName: 'eslint-config-airbnb',
+17 silly mapToRegistry   name: 'eslint-config-airbnb',
+17 silly mapToRegistry   rawSpec: '',
+17 silly mapToRegistry   spec: 'latest',
+17 silly mapToRegistry   type: 'tag' }
+18 silly mapToRegistry uri https://registry.npmjs.org/eslint-config-airbnb
+19 silly fetchNamedPackageData eslint
+20 silly mapToRegistry name eslint
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry data Result {
+23 silly mapToRegistry   raw: 'eslint',
+23 silly mapToRegistry   scope: null,
+23 silly mapToRegistry   escapedName: 'eslint',
+23 silly mapToRegistry   name: 'eslint',
+23 silly mapToRegistry   rawSpec: '',
+23 silly mapToRegistry   spec: 'latest',
+23 silly mapToRegistry   type: 'tag' }
+24 silly mapToRegistry uri https://registry.npmjs.org/eslint
+25 silly fetchNamedPackageData eslint-plugin-jsx-a11y
+26 silly mapToRegistry name eslint-plugin-jsx-a11y
+27 silly mapToRegistry using default registry
+28 silly mapToRegistry registry https://registry.npmjs.org/
+29 silly mapToRegistry data Result {
+29 silly mapToRegistry   raw: 'eslint-plugin-jsx-a11y',
+29 silly mapToRegistry   scope: null,
+29 silly mapToRegistry   escapedName: 'eslint-plugin-jsx-a11y',
+29 silly mapToRegistry   name: 'eslint-plugin-jsx-a11y',
+29 silly mapToRegistry   rawSpec: '',
+29 silly mapToRegistry   spec: 'latest',
+29 silly mapToRegistry   type: 'tag' }
+30 silly mapToRegistry uri https://registry.npmjs.org/eslint-plugin-jsx-a11y
+31 silly fetchNamedPackageData eslint-plugin-import
+32 silly mapToRegistry name eslint-plugin-import
+33 silly mapToRegistry using default registry
+34 silly mapToRegistry registry https://registry.npmjs.org/
+35 silly mapToRegistry data Result {
+35 silly mapToRegistry   raw: 'eslint-plugin-import',
+35 silly mapToRegistry   scope: null,
+35 silly mapToRegistry   escapedName: 'eslint-plugin-import',
+35 silly mapToRegistry   name: 'eslint-plugin-import',
+35 silly mapToRegistry   rawSpec: '',
+35 silly mapToRegistry   spec: 'latest',
+35 silly mapToRegistry   type: 'tag' }
+36 silly mapToRegistry uri https://registry.npmjs.org/eslint-plugin-import
+37 silly fetchNamedPackageData eslint-plugin-react
+38 silly mapToRegistry name eslint-plugin-react
+39 silly mapToRegistry using default registry
+40 silly mapToRegistry registry https://registry.npmjs.org/
+41 silly mapToRegistry data Result {
+41 silly mapToRegistry   raw: 'eslint-plugin-react',
+41 silly mapToRegistry   scope: null,
+41 silly mapToRegistry   escapedName: 'eslint-plugin-react',
+41 silly mapToRegistry   name: 'eslint-plugin-react',
+41 silly mapToRegistry   rawSpec: '',
+41 silly mapToRegistry   spec: 'latest',
+41 silly mapToRegistry   type: 'tag' }
+42 silly mapToRegistry uri https://registry.npmjs.org/eslint-plugin-react
+43 verbose request uri https://registry.npmjs.org/eslint-config-airbnb
+44 verbose request no auth needed
+45 info attempt registry request try #1 at 12:38:43
+46 verbose request id 7734949f2b8c7455
+47 verbose etag W/"5866acf3-1161d"
+48 verbose lastModified Fri, 30 Dec 2016 18:52:35 GMT
+49 http request GET https://registry.npmjs.org/eslint-config-airbnb
+50 verbose request uri https://registry.npmjs.org/eslint-plugin-jsx-a11y
+51 verbose request no auth needed
+52 info attempt registry request try #1 at 12:38:43
+53 verbose etag W/"5867eacc-1aac6"
+54 verbose lastModified Sat, 31 Dec 2016 17:28:44 GMT
+55 http request GET https://registry.npmjs.org/eslint-plugin-jsx-a11y
+56 verbose request uri https://registry.npmjs.org/eslint-plugin-import
+57 verbose request no auth needed
+58 info attempt registry request try #1 at 12:38:43
+59 verbose etag W/"584c10cb-2ca25"
+60 verbose lastModified Sat, 10 Dec 2016 14:27:23 GMT
+61 http request GET https://registry.npmjs.org/eslint-plugin-import
+62 verbose request uri https://registry.npmjs.org/eslint
+63 verbose request no auth needed
+64 info attempt registry request try #1 at 12:38:43
+65 verbose etag W/"5867700c-62c2c"
+66 verbose lastModified Sat, 31 Dec 2016 08:45:00 GMT
+67 http request GET https://registry.npmjs.org/eslint
+68 verbose request uri https://registry.npmjs.org/eslint-plugin-react
+69 verbose request no auth needed
+70 info attempt registry request try #1 at 12:38:43
+71 verbose etag W/"5867666b-2984d"
+72 verbose lastModified Sat, 31 Dec 2016 08:03:55 GMT
+73 http request GET https://registry.npmjs.org/eslint-plugin-react
+74 http 304 https://registry.npmjs.org/eslint-config-airbnb
+75 verbose headers { date: 'Mon, 02 Jan 2017 03:38:44 GMT',
+75 verbose headers   via: '1.1 varnish',
+75 verbose headers   'cache-control': 'max-age=300',
+75 verbose headers   etag: 'W/"5866acf3-1161d"',
+75 verbose headers   age: '40',
+75 verbose headers   connection: 'keep-alive',
+75 verbose headers   'x-served-by': 'cache-nrt6131-NRT',
+75 verbose headers   'x-cache': 'HIT',
+75 verbose headers   'x-cache-hits': '1',
+75 verbose headers   'x-timer': 'S1483328324.517296,VS0,VE0',
+75 verbose headers   vary: 'Accept-Encoding' }
+76 silly get cb [ 304,
+76 silly get   { date: 'Mon, 02 Jan 2017 03:38:44 GMT',
+76 silly get     via: '1.1 varnish',
+76 silly get     'cache-control': 'max-age=300',
+76 silly get     etag: 'W/"5866acf3-1161d"',
+76 silly get     age: '40',
+76 silly get     connection: 'keep-alive',
+76 silly get     'x-served-by': 'cache-nrt6131-NRT',
+76 silly get     'x-cache': 'HIT',
+76 silly get     'x-cache-hits': '1',
+76 silly get     'x-timer': 'S1483328324.517296,VS0,VE0',
+76 silly get     vary: 'Accept-Encoding' } ]
+77 verbose etag https://registry.npmjs.org/eslint-config-airbnb from cache
+78 verbose get saving eslint-config-airbnb to /Users/JJun/.npm/registry.npmjs.org/eslint-config-airbnb/.cache.json
+79 verbose correctMkdir /Users/JJun/.npm correctMkdir not in flight; initializing
+80 http 304 https://registry.npmjs.org/eslint
+81 verbose headers { date: 'Mon, 02 Jan 2017 03:38:44 GMT',
+81 verbose headers   via: '1.1 varnish',
+81 verbose headers   'cache-control': 'max-age=300',
+81 verbose headers   etag: 'W/"5867700c-62c2c"',
+81 verbose headers   age: '84',
+81 verbose headers   connection: 'keep-alive',
+81 verbose headers   'x-served-by': 'cache-nrt6129-NRT',
+81 verbose headers   'x-cache': 'HIT',
+81 verbose headers   'x-cache-hits': '1',
+81 verbose headers   'x-timer': 'S1483328324.516172,VS0,VE0',
+81 verbose headers   vary: 'Accept-Encoding' }
+82 silly get cb [ 304,
+82 silly get   { date: 'Mon, 02 Jan 2017 03:38:44 GMT',
+82 silly get     via: '1.1 varnish',
+82 silly get     'cache-control': 'max-age=300',
+82 silly get     etag: 'W/"5867700c-62c2c"',
+82 silly get     age: '84',
+82 silly get     connection: 'keep-alive',
+82 silly get     'x-served-by': 'cache-nrt6129-NRT',
+82 silly get     'x-cache': 'HIT',
+82 silly get     'x-cache-hits': '1',
+82 silly get     'x-timer': 'S1483328324.516172,VS0,VE0',
+82 silly get     vary: 'Accept-Encoding' } ]
+83 verbose etag https://registry.npmjs.org/eslint from cache
+84 verbose get saving eslint to /Users/JJun/.npm/registry.npmjs.org/eslint/.cache.json
+85 verbose correctMkdir /Users/JJun/.npm correctMkdir already in flight; waiting
+86 http 304 https://registry.npmjs.org/eslint-plugin-jsx-a11y
+87 verbose headers { date: 'Mon, 02 Jan 2017 03:38:44 GMT',
+87 verbose headers   via: '1.1 varnish',
+87 verbose headers   'cache-control': 'max-age=300',
+87 verbose headers   etag: 'W/"5867eacc-1aac6"',
+87 verbose headers   age: '18',
+87 verbose headers   connection: 'keep-alive',
+87 verbose headers   'x-served-by': 'cache-nrt6129-NRT',
+87 verbose headers   'x-cache': 'HIT',
+87 verbose headers   'x-cache-hits': '1',
+87 verbose headers   'x-timer': 'S1483328324.518643,VS0,VE0',
+87 verbose headers   vary: 'Accept-Encoding' }
+88 silly get cb [ 304,
+88 silly get   { date: 'Mon, 02 Jan 2017 03:38:44 GMT',
+88 silly get     via: '1.1 varnish',
+88 silly get     'cache-control': 'max-age=300',
+88 silly get     etag: 'W/"5867eacc-1aac6"',
+88 silly get     age: '18',
+88 silly get     connection: 'keep-alive',
+88 silly get     'x-served-by': 'cache-nrt6129-NRT',
+88 silly get     'x-cache': 'HIT',
+88 silly get     'x-cache-hits': '1',
+88 silly get     'x-timer': 'S1483328324.518643,VS0,VE0',
+88 silly get     vary: 'Accept-Encoding' } ]
+89 verbose etag https://registry.npmjs.org/eslint-plugin-jsx-a11y from cache
+90 verbose get saving eslint-plugin-jsx-a11y to /Users/JJun/.npm/registry.npmjs.org/eslint-plugin-jsx-a11y/.cache.json
+91 verbose correctMkdir /Users/JJun/.npm correctMkdir already in flight; waiting
+92 http 304 https://registry.npmjs.org/eslint-plugin-react
+93 verbose headers { date: 'Mon, 02 Jan 2017 03:38:44 GMT',
+93 verbose headers   via: '1.1 varnish',
+93 verbose headers   'cache-control': 'max-age=300',
+93 verbose headers   etag: 'W/"5867666b-2984d"',
+93 verbose headers   age: '96',
+93 verbose headers   connection: 'keep-alive',
+93 verbose headers   'x-served-by': 'cache-nrt6122-NRT',
+93 verbose headers   'x-cache': 'HIT',
+93 verbose headers   'x-cache-hits': '1',
+93 verbose headers   'x-timer': 'S1483328324.529754,VS0,VE0',
+93 verbose headers   vary: 'Accept-Encoding' }
+94 silly get cb [ 304,
+94 silly get   { date: 'Mon, 02 Jan 2017 03:38:44 GMT',
+94 silly get     via: '1.1 varnish',
+94 silly get     'cache-control': 'max-age=300',
+94 silly get     etag: 'W/"5867666b-2984d"',
+94 silly get     age: '96',
+94 silly get     connection: 'keep-alive',
+94 silly get     'x-served-by': 'cache-nrt6122-NRT',
+94 silly get     'x-cache': 'HIT',
+94 silly get     'x-cache-hits': '1',
+94 silly get     'x-timer': 'S1483328324.529754,VS0,VE0',
+94 silly get     vary: 'Accept-Encoding' } ]
+95 verbose etag https://registry.npmjs.org/eslint-plugin-react from cache
+96 verbose get saving eslint-plugin-react to /Users/JJun/.npm/registry.npmjs.org/eslint-plugin-react/.cache.json
+97 verbose correctMkdir /Users/JJun/.npm correctMkdir not in flight; initializing
+98 silly fetchNamedPackageData No valid target from cache, forcing network
+99 verbose request uri https://registry.npmjs.org/eslint
+100 verbose request no auth needed
+101 info attempt registry request try #1 at 12:38:44
+102 http request GET https://registry.npmjs.org/eslint
+103 silly fetchNamedPackageData No valid target from cache, forcing network
+104 verbose request uri https://registry.npmjs.org/eslint-plugin-jsx-a11y
+105 verbose request no auth needed
+106 info attempt registry request try #1 at 12:38:44
+107 http request GET https://registry.npmjs.org/eslint-plugin-jsx-a11y
+108 silly fetchNamedPackageData No valid target from cache, forcing network
+109 verbose request uri https://registry.npmjs.org/eslint-plugin-react
+110 verbose request no auth needed
+111 info attempt registry request try #1 at 12:38:44
+112 http request GET https://registry.npmjs.org/eslint-plugin-react
+113 http 200 https://registry.npmjs.org/eslint-plugin-jsx-a11y
+114 verbose headers { server: 'nginx/1.10.1',
+114 verbose headers   'content-type': 'application/json',
+114 verbose headers   'last-modified': 'Sat, 31 Dec 2016 17:28:44 GMT',
+114 verbose headers   etag: 'W/"5867eacc-1aac6"',
+114 verbose headers   'content-encoding': 'gzip',
+114 verbose headers   'cache-control': 'max-age=300',
+114 verbose headers   'content-length': '10087',
+114 verbose headers   'accept-ranges': 'bytes',
+114 verbose headers   date: 'Mon, 02 Jan 2017 03:38:44 GMT',
+114 verbose headers   via: '1.1 varnish',
+114 verbose headers   age: '18',
+114 verbose headers   connection: 'keep-alive',
+114 verbose headers   'x-served-by': 'cache-nrt6129-NRT',
+114 verbose headers   'x-cache': 'HIT',
+114 verbose headers   'x-cache-hits': '2',
+114 verbose headers   'x-timer': 'S1483328324.592902,VS0,VE0',
+114 verbose headers   vary: 'Accept-Encoding' }
+115 silly get cb [ 200,
+115 silly get   { server: 'nginx/1.10.1',
+115 silly get     'content-type': 'application/json',
+115 silly get     'last-modified': 'Sat, 31 Dec 2016 17:28:44 GMT',
+115 silly get     etag: 'W/"5867eacc-1aac6"',
+115 silly get     'content-encoding': 'gzip',
+115 silly get     'cache-control': 'max-age=300',
+115 silly get     'content-length': '10087',
+115 silly get     'accept-ranges': 'bytes',
+115 silly get     date: 'Mon, 02 Jan 2017 03:38:44 GMT',
+115 silly get     via: '1.1 varnish',
+115 silly get     age: '18',
+115 silly get     connection: 'keep-alive',
+115 silly get     'x-served-by': 'cache-nrt6129-NRT',
+115 silly get     'x-cache': 'HIT',
+115 silly get     'x-cache-hits': '2',
+115 silly get     'x-timer': 'S1483328324.592902,VS0,VE0',
+115 silly get     vary: 'Accept-Encoding' } ]
+116 verbose get saving eslint-plugin-jsx-a11y to /Users/JJun/.npm/registry.npmjs.org/eslint-plugin-jsx-a11y/.cache.json
+117 verbose correctMkdir /Users/JJun/.npm correctMkdir not in flight; initializing
+118 silly fetchPackageMetaData Error: No compatible version found: eslint-plugin-jsx-a11y@^#.#.#
+118 silly fetchPackageMetaData Valid install targets:
+118 silly fetchPackageMetaData 3.0.2, 3.0.1, 2.2.3, 2.2.2, 2.2.1, 2.2.0, 2.1.0, 2.0.1, 2.0.0, 1.5.5, 1.5.4, 1.5.3, 1.5.2, 1.5.1, 1.5.0, 1.4.2, 1.4.1, 1.4.0, 1.3.0, 1.2.3, 1.2.2, 1.2.1, 1.2.0, 1.1.0, 1.0.4, 1.0.3, 1.0.2, 1.0.1, 1.0.0, 0.6.2, 0.6.1, 0.6.0, 0.5.4, 0.5.3, 0.5.2, 0.5.1, 0.5.0, 0.4.3, 0.4.2, 0.4.1, 0.4.0, 0.3.1, 0.3.0, 0.2.2, 0.2.1, 0.2.0, 0.1.2, 0.1.1, 0.1.0, 0.0.2, 0.0.1
+118 silly fetchPackageMetaData
+118 silly fetchPackageMetaData     at pickVersionFromRegistryDocument (/Users/JJun/.nvm/versions/node/v6.5.0/lib/node_modules/npm/lib/fetch-package-metadata.js:170:16)
+118 silly fetchPackageMetaData     at /Users/JJun/.nvm/versions/node/v6.5.0/lib/node_modules/npm/node_modules/iferr/index.js:13:50
+118 silly fetchPackageMetaData     at /Users/JJun/.nvm/versions/node/v6.5.0/lib/node_modules/npm/lib/utils/pulse-till-done.js:20:8
+118 silly fetchPackageMetaData     at saved (/Users/JJun/.nvm/versions/node/v6.5.0/lib/node_modules/npm/lib/cache/caching-client.js:174:7)
+118 silly fetchPackageMetaData     at /Users/JJun/.nvm/versions/node/v6.5.0/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:210:7
+118 silly fetchPackageMetaData     at FSReqWrap.oncomplete (fs.js:123:15)
+118 silly fetchPackageMetaData  error for eslint-plugin-jsx-a11y@^#.#.# Error: No compatible version found: eslint-plugin-jsx-a11y@^#.#.#
+118 silly fetchPackageMetaData Valid install targets:
+118 silly fetchPackageMetaData 3.0.2, 3.0.1, 2.2.3, 2.2.2, 2.2.1, 2.2.0, 2.1.0, 2.0.1, 2.0.0, 1.5.5, 1.5.4, 1.5.3, 1.5.2, 1.5.1, 1.5.0, 1.4.2, 1.4.1, 1.4.0, 1.3.0, 1.2.3, 1.2.2, 1.2.1, 1.2.0, 1.1.0, 1.0.4, 1.0.3, 1.0.2, 1.0.1, 1.0.0, 0.6.2, 0.6.1, 0.6.0, 0.5.4, 0.5.3, 0.5.2, 0.5.1, 0.5.0, 0.4.3, 0.4.2, 0.4.1, 0.4.0, 0.3.1, 0.3.0, 0.2.2, 0.2.1, 0.2.0, 0.1.2, 0.1.1, 0.1.0, 0.0.2, 0.0.1
+118 silly fetchPackageMetaData
+118 silly fetchPackageMetaData     at pickVersionFromRegistryDocument (/Users/JJun/.nvm/versions/node/v6.5.0/lib/node_modules/npm/lib/fetch-package-metadata.js:170:16)
+118 silly fetchPackageMetaData     at /Users/JJun/.nvm/versions/node/v6.5.0/lib/node_modules/npm/node_modules/iferr/index.js:13:50
+118 silly fetchPackageMetaData     at /Users/JJun/.nvm/versions/node/v6.5.0/lib/node_modules/npm/lib/utils/pulse-till-done.js:20:8
+118 silly fetchPackageMetaData     at saved (/Users/JJun/.nvm/versions/node/v6.5.0/lib/node_modules/npm/lib/cache/caching-client.js:174:7)
+118 silly fetchPackageMetaData     at /Users/JJun/.nvm/versions/node/v6.5.0/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:210:7
+118 silly fetchPackageMetaData     at FSReqWrap.oncomplete (fs.js:123:15)
+119 http 304 https://registry.npmjs.org/eslint-plugin-import
+120 verbose headers { date: 'Mon, 02 Jan 2017 03:38:44 GMT',
+120 verbose headers   via: '1.1 varnish',
+120 verbose headers   'cache-control': 'max-age=300',
+120 verbose headers   etag: 'W/"584c10cb-2ca25"',
+120 verbose headers   age: '0',
+120 verbose headers   connection: 'keep-alive',
+120 verbose headers   'x-served-by': 'cache-nrt6127-NRT',
+120 verbose headers   'x-cache': 'HIT',
+120 verbose headers   'x-cache-hits': '1',
+120 verbose headers   'x-timer': 'S1483328324.525196,VS0,VE107',
+120 verbose headers   vary: 'Accept-Encoding' }
+121 silly get cb [ 304,
+121 silly get   { date: 'Mon, 02 Jan 2017 03:38:44 GMT',
+121 silly get     via: '1.1 varnish',
+121 silly get     'cache-control': 'max-age=300',
+121 silly get     etag: 'W/"584c10cb-2ca25"',
+121 silly get     age: '0',
+121 silly get     connection: 'keep-alive',
+121 silly get     'x-served-by': 'cache-nrt6127-NRT',
+121 silly get     'x-cache': 'HIT',
+121 silly get     'x-cache-hits': '1',
+121 silly get     'x-timer': 'S1483328324.525196,VS0,VE107',
+121 silly get     vary: 'Accept-Encoding' } ]
+122 verbose etag https://registry.npmjs.org/eslint-plugin-import from cache
+123 verbose get saving eslint-plugin-import to /Users/JJun/.npm/registry.npmjs.org/eslint-plugin-import/.cache.json
+124 verbose correctMkdir /Users/JJun/.npm correctMkdir not in flight; initializing
+125 silly fetchNamedPackageData No valid target from cache, forcing network
+126 verbose request uri https://registry.npmjs.org/eslint-plugin-import
+127 verbose request no auth needed
+128 info attempt registry request try #1 at 12:38:44
+129 http request GET https://registry.npmjs.org/eslint-plugin-import
+130 http 200 https://registry.npmjs.org/eslint-plugin-react
+131 verbose headers { server: 'nginx/1.10.1',
+131 verbose headers   'content-type': 'application/json',
+131 verbose headers   'last-modified': 'Sat, 31 Dec 2016 08:03:55 GMT',
+131 verbose headers   etag: 'W/"5867666b-2984d"',
+131 verbose headers   'content-encoding': 'gzip',
+131 verbose headers   'cache-control': 'max-age=300',
+131 verbose headers   'content-length': '16910',
+131 verbose headers   'accept-ranges': 'bytes',
+131 verbose headers   date: 'Mon, 02 Jan 2017 03:38:44 GMT',
+131 verbose headers   via: '1.1 varnish',
+131 verbose headers   age: '96',
+131 verbose headers   connection: 'keep-alive',
+131 verbose headers   'x-served-by': 'cache-nrt6129-NRT',
+131 verbose headers   'x-cache': 'HIT',
+131 verbose headers   'x-cache-hits': '1',
+131 verbose headers   'x-timer': 'S1483328324.592455,VS0,VE0',
+131 verbose headers   vary: 'Accept-Encoding' }
+132 silly get cb [ 200,
+132 silly get   { server: 'nginx/1.10.1',
+132 silly get     'content-type': 'application/json',
+132 silly get     'last-modified': 'Sat, 31 Dec 2016 08:03:55 GMT',
+132 silly get     etag: 'W/"5867666b-2984d"',
+132 silly get     'content-encoding': 'gzip',
+132 silly get     'cache-control': 'max-age=300',
+132 silly get     'content-length': '16910',
+132 silly get     'accept-ranges': 'bytes',
+132 silly get     date: 'Mon, 02 Jan 2017 03:38:44 GMT',
+132 silly get     via: '1.1 varnish',
+132 silly get     age: '96',
+132 silly get     connection: 'keep-alive',
+132 silly get     'x-served-by': 'cache-nrt6129-NRT',
+132 silly get     'x-cache': 'HIT',
+132 silly get     'x-cache-hits': '1',
+132 silly get     'x-timer': 'S1483328324.592455,VS0,VE0',
+132 silly get     vary: 'Accept-Encoding' } ]
+133 verbose get saving eslint-plugin-react to /Users/JJun/.npm/registry.npmjs.org/eslint-plugin-react/.cache.json
+134 verbose correctMkdir /Users/JJun/.npm correctMkdir not in flight; initializing
+135 silly fetchPackageMetaData Error: No compatible version found: eslint-plugin-react@^#.#.#
+135 silly fetchPackageMetaData Valid install targets:
+135 silly fetchPackageMetaData 6.8.0, 6.7.1, 6.7.0, 6.6.0, 6.5.0, 6.4.1, 6.4.0, 6.3.0, 6.2.2, 6.2.1, 6.2.0, 6.1.2, 6.1.1, 6.1.0, 6.0.0, 6.0.0-rc.1, 6.0.0-rc.0, 6.0.0-alpha.2, 6.0.0-alpha.1, 5.2.2, 5.2.1, 5.2.0, 5.1.1, 5.1.0, 5.0.1, 5.0.0, 4.3.0, 4.2.3, 4.2.2, 4.2.1, 4.2.0, 4.1.0, 4.0.0, 4.0.0-rc.1, 4.0.0-rc.0, 3.16.1, 3.16.0, 3.15.0, 3.14.0, 3.13.1, 3.13.0, 3.12.0, 3.11.3, 3.11.2, 3.11.1, 3.11.0, 3.10.0, 3.9.0, 3.8.0, 3.7.1, 3.7.0, 3.6.3, 3.6.2, 3.6.1, 3.6.0, 3.5.1, 3.5.0, 3.4.2, 3.4.1, 3.4.0, 3.3.2, 3.3.1, 3.3.0, 3.2.3, 3.2.2, 3.2.1, 3.2.0, 3.1.0, 3.0.0, 2.7.1, 2.7.0, 2.6.4, 2.6.3, 2.6.2, 2.6.1, 2.6.0, 2.5.2, 2.5.1, 2.5.0, 2.4.0, 2.3.0, 2.2.0, 2.1.1, 2.1.0, 2.0.2, 2.0.1, 2.0.0, 1.6.1, 1.6.0, 1.5.0, 1.4.1, 1.4.0, 1.3.0, 1.2.2, 1.2.1, 1.2.0, 1.1.0, 1.0.0
+135 silly fetchPackageMetaData
+135 silly fetchPackageMetaData     at pickVersionFromRegistryDocument (/Users/JJun/.nvm/versions/node/v6.5.0/lib/node_modules/npm/lib/fetch-package-metadata.js:170:16)
+135 silly fetchPackageMetaData     at /Users/JJun/.nvm/versions/node/v6.5.0/lib/node_modules/npm/node_modules/iferr/index.js:13:50
+135 silly fetchPackageMetaData     at /Users/JJun/.nvm/versions/node/v6.5.0/lib/node_modules/npm/lib/utils/pulse-till-done.js:20:8
+135 silly fetchPackageMetaData     at saved (/Users/JJun/.nvm/versions/node/v6.5.0/lib/node_modules/npm/lib/cache/caching-client.js:174:7)
+135 silly fetchPackageMetaData     at /Users/JJun/.nvm/versions/node/v6.5.0/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:210:7
+135 silly fetchPackageMetaData     at FSReqWrap.oncomplete (fs.js:123:15)
+135 silly fetchPackageMetaData  error for eslint-plugin-react@^#.#.# Error: No compatible version found: eslint-plugin-react@^#.#.#
+135 silly fetchPackageMetaData Valid install targets:
+135 silly fetchPackageMetaData 6.8.0, 6.7.1, 6.7.0, 6.6.0, 6.5.0, 6.4.1, 6.4.0, 6.3.0, 6.2.2, 6.2.1, 6.2.0, 6.1.2, 6.1.1, 6.1.0, 6.0.0, 6.0.0-rc.1, 6.0.0-rc.0, 6.0.0-alpha.2, 6.0.0-alpha.1, 5.2.2, 5.2.1, 5.2.0, 5.1.1, 5.1.0, 5.0.1, 5.0.0, 4.3.0, 4.2.3, 4.2.2, 4.2.1, 4.2.0, 4.1.0, 4.0.0, 4.0.0-rc.1, 4.0.0-rc.0, 3.16.1, 3.16.0, 3.15.0, 3.14.0, 3.13.1, 3.13.0, 3.12.0, 3.11.3, 3.11.2, 3.11.1, 3.11.0, 3.10.0, 3.9.0, 3.8.0, 3.7.1, 3.7.0, 3.6.3, 3.6.2, 3.6.1, 3.6.0, 3.5.1, 3.5.0, 3.4.2, 3.4.1, 3.4.0, 3.3.2, 3.3.1, 3.3.0, 3.2.3, 3.2.2, 3.2.1, 3.2.0, 3.1.0, 3.0.0, 2.7.1, 2.7.0, 2.6.4, 2.6.3, 2.6.2, 2.6.1, 2.6.0, 2.5.2, 2.5.1, 2.5.0, 2.4.0, 2.3.0, 2.2.0, 2.1.1, 2.1.0, 2.0.2, 2.0.1, 2.0.0, 1.6.1, 1.6.0, 1.5.0, 1.4.1, 1.4.0, 1.3.0, 1.2.2, 1.2.1, 1.2.0, 1.1.0, 1.0.0
+135 silly fetchPackageMetaData
+135 silly fetchPackageMetaData     at pickVersionFromRegistryDocument (/Users/JJun/.nvm/versions/node/v6.5.0/lib/node_modules/npm/lib/fetch-package-metadata.js:170:16)
+135 silly fetchPackageMetaData     at /Users/JJun/.nvm/versions/node/v6.5.0/lib/node_modules/npm/node_modules/iferr/index.js:13:50
+135 silly fetchPackageMetaData     at /Users/JJun/.nvm/versions/node/v6.5.0/lib/node_modules/npm/lib/utils/pulse-till-done.js:20:8
+135 silly fetchPackageMetaData     at saved (/Users/JJun/.nvm/versions/node/v6.5.0/lib/node_modules/npm/lib/cache/caching-client.js:174:7)
+135 silly fetchPackageMetaData     at /Users/JJun/.nvm/versions/node/v6.5.0/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:210:7
+135 silly fetchPackageMetaData     at FSReqWrap.oncomplete (fs.js:123:15)
+136 http 200 https://registry.npmjs.org/eslint
+137 verbose headers { server: 'nginx/1.10.1',
+137 verbose headers   'content-type': 'application/json',
+137 verbose headers   'last-modified': 'Sat, 31 Dec 2016 08:45:00 GMT',
+137 verbose headers   etag: 'W/"5867700c-62c2c"',
+137 verbose headers   'content-encoding': 'gzip',
+137 verbose headers   'cache-control': 'max-age=300',
+137 verbose headers   'content-length': '24924',
+137 verbose headers   'accept-ranges': 'bytes',
+137 verbose headers   date: 'Mon, 02 Jan 2017 03:38:44 GMT',
+137 verbose headers   via: '1.1 varnish',
+137 verbose headers   age: '84',
+137 verbose headers   connection: 'keep-alive',
+137 verbose headers   'x-served-by': 'cache-nrt6131-NRT',
+137 verbose headers   'x-cache': 'HIT',
+137 verbose headers   'x-cache-hits': '1',
+137 verbose headers   'x-timer': 'S1483328324.598314,VS0,VE0',
+137 verbose headers   vary: 'Accept-Encoding' }
+138 silly get cb [ 200,
+138 silly get   { server: 'nginx/1.10.1',
+138 silly get     'content-type': 'application/json',
+138 silly get     'last-modified': 'Sat, 31 Dec 2016 08:45:00 GMT',
+138 silly get     etag: 'W/"5867700c-62c2c"',
+138 silly get     'content-encoding': 'gzip',
+138 silly get     'cache-control': 'max-age=300',
+138 silly get     'content-length': '24924',
+138 silly get     'accept-ranges': 'bytes',
+138 silly get     date: 'Mon, 02 Jan 2017 03:38:44 GMT',
+138 silly get     via: '1.1 varnish',
+138 silly get     age: '84',
+138 silly get     connection: 'keep-alive',
+138 silly get     'x-served-by': 'cache-nrt6131-NRT',
+138 silly get     'x-cache': 'HIT',
+138 silly get     'x-cache-hits': '1',
+138 silly get     'x-timer': 'S1483328324.598314,VS0,VE0',
+138 silly get     vary: 'Accept-Encoding' } ]
+139 verbose get saving eslint to /Users/JJun/.npm/registry.npmjs.org/eslint/.cache.json
+140 verbose correctMkdir /Users/JJun/.npm correctMkdir not in flight; initializing
+141 silly fetchPackageMetaData Error: No compatible version found: eslint@^#.#.#
+141 silly fetchPackageMetaData Valid install targets:
+141 silly fetchPackageMetaData 3.12.2, 3.12.1, 3.12.0, 3.11.1, 3.11.0, 3.10.2, 3.10.1, 3.10.0, 3.9.1, 3.9.0, 3.8.1, 3.8.0, 3.7.1, 3.7.0, 3.6.1, 3.6.0, 3.5.0, 3.4.0, 3.3.1, 3.3.0, 3.2.2, 3.2.1, 3.2.0, 3.1.1, 3.1.0, 3.0.1, 3.0.0, 2.13.1, 2.13.0, 2.12.0, 2.11.1, 2.11.0, 2.10.2, 2.10.1, 2.10.0, 2.9.0, 2.8.0, 2.7.0, 2.6.0, 2.5.3, 2.5.2, 2.5.1, 2.5.0, 2.4.0, 2.3.0, 2.2.0, 2.1.0, 2.0.0, 2.0.0-rc.1, 2.0.0-rc.0, 2.0.0-beta.3, 2.0.0-beta.2, 2.0.0-beta.1, 2.0.0-alpha-2, 2.0.0-alpha-1, 1.10.3, 1.10.2, 1.10.1, 1.10.0, 1.9.0, 1.8.0, 1.7.3, 1.7.2, 1.7.1, 1.7.0, 1.6.0, 1.5.1, 1.5.0, 1.4.3, 1.4.2, 1.4.1, 1.4.0, 1.3.1, 1.3.0, 1.2.1, 1.2.0, 1.1.0, 1.0.0, 1.0.0-rc-3, 1.0.0-rc-2, 1.0.0-rc-1, 0.24.1, 0.24.0, 0.23.0, 0.22.1, 0.22.0, 0.21.2, 0.21.1, 0.21.0, 0.20.0, 0.19.0, 0.18.0, 0.17.1, 0.17.0, 0.16.2, 0.16.1, 0.16.0, 0.15.1, 0.15.0, 0.14.1, 0.14.0, 0.13.0, 0.12.0, 0.11.0, 0.11.0-alpha.0, 0.10.2, 0.10.1, 0.10.0, 0.10.0-alpha.2, 0.10.0-alpha.1, 0.10.0-alpha, 0.9.2, 0.9.1, 0.9.0, 0.8.2, 0.8.1, 0.8.0, 0.7.4, 0.7.3, 0.7.2, 0.7.1, 0.6.2, 0.6.1, 0.6.0, 0.5.1, 0.5.0, 0.4.5, 0.4.4, 0.4.3, 0.4.2, 0.4.1, 0.4.0, 0.3.0, 0.2.0, 0.1.4, 0.1.3, 0.1.2, 0.1.1, 0.1.0, 0.1.0-dev, 0.0.7, 0.0.6, 0.0.5, 0.0.4
+141 silly fetchPackageMetaData
+141 silly fetchPackageMetaData     at pickVersionFromRegistryDocument (/Users/JJun/.nvm/versions/node/v6.5.0/lib/node_modules/npm/lib/fetch-package-metadata.js:170:16)
+141 silly fetchPackageMetaData     at /Users/JJun/.nvm/versions/node/v6.5.0/lib/node_modules/npm/node_modules/iferr/index.js:13:50
+141 silly fetchPackageMetaData     at /Users/JJun/.nvm/versions/node/v6.5.0/lib/node_modules/npm/lib/utils/pulse-till-done.js:20:8
+141 silly fetchPackageMetaData     at saved (/Users/JJun/.nvm/versions/node/v6.5.0/lib/node_modules/npm/lib/cache/caching-client.js:174:7)
+141 silly fetchPackageMetaData     at /Users/JJun/.nvm/versions/node/v6.5.0/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:210:7
+141 silly fetchPackageMetaData     at FSReqWrap.oncomplete (fs.js:123:15)
+141 silly fetchPackageMetaData  error for eslint@^#.#.# Error: No compatible version found: eslint@^#.#.#
+141 silly fetchPackageMetaData Valid install targets:
+141 silly fetchPackageMetaData 3.12.2, 3.12.1, 3.12.0, 3.11.1, 3.11.0, 3.10.2, 3.10.1, 3.10.0, 3.9.1, 3.9.0, 3.8.1, 3.8.0, 3.7.1, 3.7.0, 3.6.1, 3.6.0, 3.5.0, 3.4.0, 3.3.1, 3.3.0, 3.2.2, 3.2.1, 3.2.0, 3.1.1, 3.1.0, 3.0.1, 3.0.0, 2.13.1, 2.13.0, 2.12.0, 2.11.1, 2.11.0, 2.10.2, 2.10.1, 2.10.0, 2.9.0, 2.8.0, 2.7.0, 2.6.0, 2.5.3, 2.5.2, 2.5.1, 2.5.0, 2.4.0, 2.3.0, 2.2.0, 2.1.0, 2.0.0, 2.0.0-rc.1, 2.0.0-rc.0, 2.0.0-beta.3, 2.0.0-beta.2, 2.0.0-beta.1, 2.0.0-alpha-2, 2.0.0-alpha-1, 1.10.3, 1.10.2, 1.10.1, 1.10.0, 1.9.0, 1.8.0, 1.7.3, 1.7.2, 1.7.1, 1.7.0, 1.6.0, 1.5.1, 1.5.0, 1.4.3, 1.4.2, 1.4.1, 1.4.0, 1.3.1, 1.3.0, 1.2.1, 1.2.0, 1.1.0, 1.0.0, 1.0.0-rc-3, 1.0.0-rc-2, 1.0.0-rc-1, 0.24.1, 0.24.0, 0.23.0, 0.22.1, 0.22.0, 0.21.2, 0.21.1, 0.21.0, 0.20.0, 0.19.0, 0.18.0, 0.17.1, 0.17.0, 0.16.2, 0.16.1, 0.16.0, 0.15.1, 0.15.0, 0.14.1, 0.14.0, 0.13.0, 0.12.0, 0.11.0, 0.11.0-alpha.0, 0.10.2, 0.10.1, 0.10.0, 0.10.0-alpha.2, 0.10.0-alpha.1, 0.10.0-alpha, 0.9.2, 0.9.1, 0.9.0, 0.8.2, 0.8.1, 0.8.0, 0.7.4, 0.7.3, 0.7.2, 0.7.1, 0.6.2, 0.6.1, 0.6.0, 0.5.1, 0.5.0, 0.4.5, 0.4.4, 0.4.3, 0.4.2, 0.4.1, 0.4.0, 0.3.0, 0.2.0, 0.1.4, 0.1.3, 0.1.2, 0.1.1, 0.1.0, 0.1.0-dev, 0.0.7, 0.0.6, 0.0.5, 0.0.4
+141 silly fetchPackageMetaData
+141 silly fetchPackageMetaData     at pickVersionFromRegistryDocument (/Users/JJun/.nvm/versions/node/v6.5.0/lib/node_modules/npm/lib/fetch-package-metadata.js:170:16)
+141 silly fetchPackageMetaData     at /Users/JJun/.nvm/versions/node/v6.5.0/lib/node_modules/npm/node_modules/iferr/index.js:13:50
+141 silly fetchPackageMetaData     at /Users/JJun/.nvm/versions/node/v6.5.0/lib/node_modules/npm/lib/utils/pulse-till-done.js:20:8
+141 silly fetchPackageMetaData     at saved (/Users/JJun/.nvm/versions/node/v6.5.0/lib/node_modules/npm/lib/cache/caching-client.js:174:7)
+141 silly fetchPackageMetaData     at /Users/JJun/.nvm/versions/node/v6.5.0/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:210:7
+141 silly fetchPackageMetaData     at FSReqWrap.oncomplete (fs.js:123:15)
+142 http 200 https://registry.npmjs.org/eslint-plugin-import
+143 verbose headers { server: 'nginx/1.10.1',
+143 verbose headers   'content-type': 'application/json',
+143 verbose headers   'last-modified': 'Sat, 10 Dec 2016 14:27:23 GMT',
+143 verbose headers   etag: 'W/"584c10cb-2ca25"',
+143 verbose headers   'content-encoding': 'gzip',
+143 verbose headers   'cache-control': 'max-age=300',
+143 verbose headers   'content-length': '17101',
+143 verbose headers   'accept-ranges': 'bytes',
+143 verbose headers   date: 'Mon, 02 Jan 2017 03:38:44 GMT',
+143 verbose headers   via: '1.1 varnish',
+143 verbose headers   age: '0',
+143 verbose headers   connection: 'keep-alive',
+143 verbose headers   'x-served-by': 'cache-nrt6122-NRT',
+143 verbose headers   'x-cache': 'HIT',
+143 verbose headers   'x-cache-hits': '1',
+143 verbose headers   'x-timer': 'S1483328324.681616,VS0,VE0',
+143 verbose headers   vary: 'Accept-Encoding' }
+144 silly get cb [ 200,
+144 silly get   { server: 'nginx/1.10.1',
+144 silly get     'content-type': 'application/json',
+144 silly get     'last-modified': 'Sat, 10 Dec 2016 14:27:23 GMT',
+144 silly get     etag: 'W/"584c10cb-2ca25"',
+144 silly get     'content-encoding': 'gzip',
+144 silly get     'cache-control': 'max-age=300',
+144 silly get     'content-length': '17101',
+144 silly get     'accept-ranges': 'bytes',
+144 silly get     date: 'Mon, 02 Jan 2017 03:38:44 GMT',
+144 silly get     via: '1.1 varnish',
+144 silly get     age: '0',
+144 silly get     connection: 'keep-alive',
+144 silly get     'x-served-by': 'cache-nrt6122-NRT',
+144 silly get     'x-cache': 'HIT',
+144 silly get     'x-cache-hits': '1',
+144 silly get     'x-timer': 'S1483328324.681616,VS0,VE0',
+144 silly get     vary: 'Accept-Encoding' } ]
+145 verbose get saving eslint-plugin-import to /Users/JJun/.npm/registry.npmjs.org/eslint-plugin-import/.cache.json
+146 verbose correctMkdir /Users/JJun/.npm correctMkdir not in flight; initializing
+147 silly fetchPackageMetaData Error: No compatible version found: eslint-plugin-import@^#.#.#
+147 silly fetchPackageMetaData Valid install targets:
+147 silly fetchPackageMetaData 2.2.0, 2.1.0, 2.0.1, 2.0.0, 2.0.0-beta.1, 2.0.0-beta.0, 1.16.0, 1.15.0, 1.14.0, 1.13.0, 1.12.0, 1.11.1, 1.11.0, 1.10.3, 1.10.2, 1.10.0, 1.9.2, 1.9.1, 1.9.0, 1.8.1, 1.8.0, 1.7.0, 1.6.1, 1.6.0, 1.5.0, 1.4.0, 1.3.0, 1.2.0, 1.1.0, 1.0.4, 1.0.3, 1.0.2, 1.0.1, 1.0.0, 1.0.0-beta.0, 0.13.0, 0.12.1, 0.12.0, 0.11.0, 0.10.1, 0.10.0, 0.9.1, 0.8.1, 0.8.0, 0.7.9, 0.7.8, 0.7.7, 0.7.5, 0.7.4, 0.7.3, 0.7.2, 0.7.1, 0.7.0, 0.6.0, 0.5.2, 0.5.1, 0.4.5, 0.4.4, 0.4.3, 0.4.2, 0.4.1, 0.4.0, 0.3.13, 0.3.12, 0.3.11, 0.3.10, 0.3.9, 0.3.8, 0.3.6, 0.3.5, 0.3.4, 0.3.3, 0.3.2, 0.3.0
+147 silly fetchPackageMetaData
+147 silly fetchPackageMetaData     at pickVersionFromRegistryDocument (/Users/JJun/.nvm/versions/node/v6.5.0/lib/node_modules/npm/lib/fetch-package-metadata.js:170:16)
+147 silly fetchPackageMetaData     at /Users/JJun/.nvm/versions/node/v6.5.0/lib/node_modules/npm/node_modules/iferr/index.js:13:50
+147 silly fetchPackageMetaData     at /Users/JJun/.nvm/versions/node/v6.5.0/lib/node_modules/npm/lib/utils/pulse-till-done.js:20:8
+147 silly fetchPackageMetaData     at saved (/Users/JJun/.nvm/versions/node/v6.5.0/lib/node_modules/npm/lib/cache/caching-client.js:174:7)
+147 silly fetchPackageMetaData     at /Users/JJun/.nvm/versions/node/v6.5.0/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:210:7
+147 silly fetchPackageMetaData     at FSReqWrap.oncomplete (fs.js:123:15)
+147 silly fetchPackageMetaData  error for eslint-plugin-import@^#.#.# Error: No compatible version found: eslint-plugin-import@^#.#.#
+147 silly fetchPackageMetaData Valid install targets:
+147 silly fetchPackageMetaData 2.2.0, 2.1.0, 2.0.1, 2.0.0, 2.0.0-beta.1, 2.0.0-beta.0, 1.16.0, 1.15.0, 1.14.0, 1.13.0, 1.12.0, 1.11.1, 1.11.0, 1.10.3, 1.10.2, 1.10.0, 1.9.2, 1.9.1, 1.9.0, 1.8.1, 1.8.0, 1.7.0, 1.6.1, 1.6.0, 1.5.0, 1.4.0, 1.3.0, 1.2.0, 1.1.0, 1.0.4, 1.0.3, 1.0.2, 1.0.1, 1.0.0, 1.0.0-beta.0, 0.13.0, 0.12.1, 0.12.0, 0.11.0, 0.10.1, 0.10.0, 0.9.1, 0.8.1, 0.8.0, 0.7.9, 0.7.8, 0.7.7, 0.7.5, 0.7.4, 0.7.3, 0.7.2, 0.7.1, 0.7.0, 0.6.0, 0.5.2, 0.5.1, 0.4.5, 0.4.4, 0.4.3, 0.4.2, 0.4.1, 0.4.0, 0.3.13, 0.3.12, 0.3.11, 0.3.10, 0.3.9, 0.3.8, 0.3.6, 0.3.5, 0.3.4, 0.3.3, 0.3.2, 0.3.0
+147 silly fetchPackageMetaData
+147 silly fetchPackageMetaData     at pickVersionFromRegistryDocument (/Users/JJun/.nvm/versions/node/v6.5.0/lib/node_modules/npm/lib/fetch-package-metadata.js:170:16)
+147 silly fetchPackageMetaData     at /Users/JJun/.nvm/versions/node/v6.5.0/lib/node_modules/npm/node_modules/iferr/index.js:13:50
+147 silly fetchPackageMetaData     at /Users/JJun/.nvm/versions/node/v6.5.0/lib/node_modules/npm/lib/utils/pulse-till-done.js:20:8
+147 silly fetchPackageMetaData     at saved (/Users/JJun/.nvm/versions/node/v6.5.0/lib/node_modules/npm/lib/cache/caching-client.js:174:7)
+147 silly fetchPackageMetaData     at /Users/JJun/.nvm/versions/node/v6.5.0/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:210:7
+147 silly fetchPackageMetaData     at FSReqWrap.oncomplete (fs.js:123:15)
+148 silly rollbackFailedOptional Starting
+149 silly rollbackFailedOptional Finishing
+150 silly runTopLevelLifecycles Starting
+151 silly runTopLevelLifecycles Finishing
+152 silly install printInstalled
+153 verbose stack Error: No compatible version found: eslint-plugin-jsx-a11y@^#.#.#
+153 verbose stack Valid install targets:
+153 verbose stack 3.0.2, 3.0.1, 2.2.3, 2.2.2, 2.2.1, 2.2.0, 2.1.0, 2.0.1, 2.0.0, 1.5.5, 1.5.4, 1.5.3, 1.5.2, 1.5.1, 1.5.0, 1.4.2, 1.4.1, 1.4.0, 1.3.0, 1.2.3, 1.2.2, 1.2.1, 1.2.0, 1.1.0, 1.0.4, 1.0.3, 1.0.2, 1.0.1, 1.0.0, 0.6.2, 0.6.1, 0.6.0, 0.5.4, 0.5.3, 0.5.2, 0.5.1, 0.5.0, 0.4.3, 0.4.2, 0.4.1, 0.4.0, 0.3.1, 0.3.0, 0.2.2, 0.2.1, 0.2.0, 0.1.2, 0.1.1, 0.1.0, 0.0.2, 0.0.1
+153 verbose stack
+153 verbose stack     at pickVersionFromRegistryDocument (/Users/JJun/.nvm/versions/node/v6.5.0/lib/node_modules/npm/lib/fetch-package-metadata.js:170:16)
+153 verbose stack     at /Users/JJun/.nvm/versions/node/v6.5.0/lib/node_modules/npm/node_modules/iferr/index.js:13:50
+153 verbose stack     at /Users/JJun/.nvm/versions/node/v6.5.0/lib/node_modules/npm/lib/utils/pulse-till-done.js:20:8
+153 verbose stack     at saved (/Users/JJun/.nvm/versions/node/v6.5.0/lib/node_modules/npm/lib/cache/caching-client.js:174:7)
+153 verbose stack     at /Users/JJun/.nvm/versions/node/v6.5.0/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:210:7
+153 verbose stack     at FSReqWrap.oncomplete (fs.js:123:15)
+154 verbose cwd /Users/JJun/Dropbox/Study/today
+155 error Darwin 16.3.0
+156 error argv "/Users/JJun/.nvm/versions/node/v6.5.0/bin/node" "/Users/JJun/.nvm/versions/node/v6.5.0/bin/npm" "install" "--save-dev" "eslint-config-airbnb" "eslint@^#.#.#" "eslint-plugin-jsx-a11y@^#.#.#" "eslint-plugin-import@^#.#.#" "eslint-plugin-react@^#.#.#"
+157 error node v6.5.0
+158 error npm  v3.10.3
+159 error No compatible version found: eslint-plugin-jsx-a11y@^#.#.#
+159 error Valid install targets:
+159 error 3.0.2, 3.0.1, 2.2.3, 2.2.2, 2.2.1, 2.2.0, 2.1.0, 2.0.1, 2.0.0, 1.5.5, 1.5.4, 1.5.3, 1.5.2, 1.5.1, 1.5.0, 1.4.2, 1.4.1, 1.4.0, 1.3.0, 1.2.3, 1.2.2, 1.2.1, 1.2.0, 1.1.0, 1.0.4, 1.0.3, 1.0.2, 1.0.1, 1.0.0, 0.6.2, 0.6.1, 0.6.0, 0.5.4, 0.5.3, 0.5.2, 0.5.1, 0.5.0, 0.4.3, 0.4.2, 0.4.1, 0.4.0, 0.3.1, 0.3.0, 0.2.2, 0.2.1, 0.2.0, 0.1.2, 0.1.1, 0.1.0, 0.0.2, 0.0.1
+160 error If you need help, you may report this error at:
+160 error     <https://github.com/npm/npm/issues>
+161 verbose exit [ 1, true ]
